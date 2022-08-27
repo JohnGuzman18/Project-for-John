@@ -1,0 +1,177 @@
+
+
+body {
+
+margin: 0;
+padding: 0;
+background: url(../images/background.jpg) no-repeat center top;
+background-size: cover;
+font-family: "Rubik Maze";
+height: 100vh;
+background-color: rgb(243, 243, 243);
+}
+
+
+.login-box{
+    height: 535px;
+    width: 335px;
+    background: #026873;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    backdrop-filter: blur(3px);
+} 
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"], .login-box input[type="email"], .login-box input[type ="date"] {
+    border: none;
+    border-bottom: 1px solid #03A678;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;;
+    font-size: 16px;
+  }
+
+  .login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #038C73;
+    border-radius: 20px;
+    color: #fff;
+  }
+
+  .login-box a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 15px;
+    color: white;
+
+
+  }
+
+.login-box a:hover {
+color: #B2BABB
+
+}
+
+
+.container-xxl {
+max-width: 1530px;
+background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.flex{
+  height: 74px;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 8px;
+  height: 30px;
+  background-color: transparent;
+}
+
+
+.buttons{
+background-color:#026873 !important;
+
+}
+
+.pd{
+padding-bottom: 3rem!important;
+}
+
+.lead-text-center{
+  text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-text{
+color:#038C73;
+}
+
+.header{
+  color: #022859!important;
+
+}
+
+.star{
+width: 20px;
+height:20px;
+position: absolute;
+}
+
+.text-muted1{
+position: relative;
+left: -87%;
+
+}
+
+.title {
+  width: 110px;
+  height:110px;
+  position: relative;
+  left:-29%;
+  }
+  
+
+  .lead{
+    text-align: left;
+    color: #022859;
+  }
+
+  .container2{
+background-color: #026873;
+padding-bottom: 3rem
+
+  }
+
+  .float{
+    position: relative;
+    left: -26%;
+    color: #026873;
+  }
+
+.lead-strong{
+  text-align: left;
+  color: #022859;
+  font-weight: 500;
+  font-size: 22px;
+
+}
